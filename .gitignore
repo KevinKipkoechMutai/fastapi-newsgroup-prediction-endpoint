@@ -1,2 +1,23 @@
-/venv
+# Ignore Python cache directories
+__pycache__/
+
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore log files
+*.log
+
+# Ignore virtual environment directories
+venv/
 .env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore other irrelevant files
+*.DS_Store  # macOS
+*.egg-info/  # Python egg metadata
+*.egg  # Python egg files
+*.pyo  # Optimized Python files
+*.coverage  # Coverage reports
+*.pytest_cache/  # pytest cache
